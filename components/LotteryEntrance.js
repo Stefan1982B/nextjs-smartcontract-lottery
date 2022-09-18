@@ -92,7 +92,7 @@ export default function LotteryEntrance() {
     const handleNewNotification = () => {
         dispatch({
             type: "info",
-            message: "Transaction Complete! en de boel",
+            message: "Transaction Complete!",
             title: "Transaction Notification",
             position: "topR",
             icon: "bell",
@@ -108,7 +108,7 @@ export default function LotteryEntrance() {
 
     return (
         <div className="p-5">
-            <h1 className="py-4 px-4 font-bold text-3xl">Lottery</h1>
+            <h1 className="py-4 px-4 font-bold text-3xl">Lottery end another thing</h1>
             {raffleAddress ? (
                 <>
                     <button
